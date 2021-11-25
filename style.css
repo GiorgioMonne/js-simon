@@ -1,0 +1,53 @@
+/* ***COMMONS*** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: lightgray;
+}
+
+/* ***header*** */
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 213, 240);
+}
+
+header h1{
+    display: flex;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ***main*** */
+
+main{
+    height: calc(100% - 100px);
+    background-color: blueviolet; 
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;    
+} 
+
+.box-numeri{
+    height: 80px;
+    width: 350px;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    line-height: 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid grey;
+}
